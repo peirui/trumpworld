@@ -1,0 +1,154 @@
+---
+title: "Intro to Networks HW1"
+author: "Rui Pei"
+date: "January 29, 2017"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+rm(list = ls())
+knitr::opts_chunk$set(echo = FALSE)
+library(igraph)
+```
+
+## Q1. 
+If you look at the original file “TrumpWorld Data — Public.xlsx” published by BuzzFeed  (Links to an external site.)(you can also find it in canvas, in the week 2 folderView in a new window), there are very different types of connections linking people: some connections are based on friendship with Trump, some on advisory roles, and some are family-related. Build two networks: one for “business partners” and one for “family”, using the information contained in the spreadsheet and following the format of the files used in handout #2Preview the documentView in a new window. Visualize these two networks and explain what you see. (Note: you can use Gephi or R to visualize the networks; you should submit a word document with the visualizations and your descriptions).
+
+__Family-related network__
+
+```{r q1}
+# first, create the data nodes file
+people<-read.csv("TrumpWorld Data_person.csv", header=T)
+people_fam <- people[people$Type == "family",]
+df_fam1 <- as.data.frame(people_fam$Person.A)
+colnames(df_fam1) <- c("label")
+df_fam2 <- as.data.frame(people_fam$Person.B)
+colnames(df_fam2) <- c("label")
+df_fam_nodes <- rbind(df_fam1, df_fam2)
+df_fam_nodes <- as.data.frame(df_fam_nodes[!duplicated(df_fam_nodes), ])
+colnames(df_fam_nodes) <- c("label")
+df_fam_nodes$Id<-seq.int(nrow(df_fam_nodes))
+```
+
+```{r q2}
+# second, create the edges file
+people$Person.A <- as.character(people$Person.A)
+people$Person.B <- as.character(people$Person.B)
+people_fam <- people[people$Type == "family",]
+
+for (i in 1:length(df_fam_nodes$Id)){
+  people_fam[people_fam == as.character(df_fam_nodes$label[i])] <- as.character(df_fam_nodes$Id[i])
+}
+colnames(people_fam) <- c("Source", "Target", "Connection", "Label")
+people_fam$Type <- "undirected"
+```
+
+```{r create_network}
+# now put this together and create family network
+## this creates the ties:
+g1<-graph_from_edgelist(as.matrix(people_fam[,1:2]), directed = FALSE)
+#V(g1)$name<-as.character(df_fam_nodes$label)
+for (i in 1:length(V(g1))){
+  V(g1)$name[i] <- as.character(df_fam_nodes$label[which(df_fam_nodes$Id == V(g1)$name[i])])
+}
+par(mar=c(0,0,0,0))
+plot(g1,vertex.size=5, 
+     vertex.label.cex=0.6, vertex.label.color="black",
+     layout=layout.fruchterman.reingold)
+
+```
+
+
+Above is a visualization of family ties in Trump World network. Here we can clearly see Donald J. Trump's immediate families, such as his wife Melania Trump, and children Donald Trump Jr. Eric Trump, and Ivanka Trump. There are also some family ties that don't directly connect to Trump. They exist because the nodes have some other type of connection to the Trump family network, which are not shown in this visualization. 
+
+
+__Business network__
+
+```{r q1_1}
+# first, create the data nodes file
+people_bus <- people[people$Type == "Business partners",]
+df_bus1 <- as.data.frame(people_bus$Person.A)
+colnames(df_bus1) <- c("label")
+df_bus2 <- as.data.frame(people_bus$Person.B)
+colnames(df_bus2) <- c("label")
+df_bus_nodes <- rbind(df_bus1, df_bus2)
+df_bus_nodes <- as.data.frame(df_bus_nodes[!duplicated(df_bus_nodes), ])
+colnames(df_bus_nodes) <- c("label")
+df_bus_nodes$Id<-seq.int(nrow(df_bus_nodes))
+```
+
+```{r q1_3}
+# second, create the edges file
+
+people_bus <- people[people$Type == "Business partners",]
+
+for (i in 1:length(df_bus_nodes$Id)){
+  people_bus[people_bus == as.character(df_bus_nodes$label[i])] <- as.character(df_bus_nodes$Id[i])
+}
+```
+
+```{r create_network2}
+# now put this together and create family network
+
+## here we create the network from the information contained
+## in the csv files
+
+## this creates the ties:
+g2<-graph_from_edgelist(as.matrix(people_bus[,1:2]), directed = FALSE)
+for (i in 1:length(V(g2))){
+  V(g2)$name[i] <- as.character(df_bus_nodes$label[which(df_bus_nodes$Id == V(g2)$name[i])])
+}
+par(mar=c(0,0,0,0))
+plot(g2,vertex.size=6, 
+     vertex.label.cex=0.6, vertex.label.color="black",
+     layout=layout.fruchterman.reingold)
+```
+
+Here we see ties that are labeled "Business Partners" in Trump's network. It is much smaller than expected - probably because many of his business partners are not recorded. Here we see three immediate business partners of Trump: Mehmet Ali Yalcindag, Roger Khafif, and Mangal Prabhat Lodha. Notably Yalcindag is also business partner of Ivanka Trump.
+
+
+## Q2. 
+
+The file “TrumpWorld Data — Public.xlsx” also contains information of connections between organizations (see org-org tab). Build one network mapping these links, visualize it and explain what you see. (Note: there are 770 unique organizations, so don’t try to visualize the labels! You can use Gephi or R to visualize the network; you should submit a word document with the visualization and your description).
+
+```{r 2}
+# first, create the data nodes file
+org <- read.csv("TrumpWorld_Org.csv", header=T)
+df_org1 <- as.data.frame(org$Organization.A)
+colnames(df_org1) <- c("label")
+df_org2 <- as.data.frame(org$Organization.B)
+colnames(df_org2) <- c("label")
+df_org_nodes <- rbind(df_org1, df_org2)
+df_org_nodes <- as.data.frame(df_org_nodes[!duplicated(df_org_nodes), ])
+colnames(df_org_nodes) <- c("label")
+df_org_nodes$Id<-seq.int(nrow(df_org_nodes))
+```
+
+```{r q2_2}
+# second, create the edges file
+org$Organization.A <- as.character(org$Organization.A)
+org$Organization.B <- as.character(org$Organization.B)
+
+
+for (i in 1:length(df_org_nodes$Id)){
+  org[org == as.character(df_org_nodes$label[i])] <- as.character(df_org_nodes$Id[i])
+}
+colnames(org) <- c("Source", "Target", "Connection", "Source")
+org$Type <- "undirected"
+```
+
+__Trump world organization network__
+
+```{r create_network3}
+# now put this together and create family network
+## this creates the ties:
+g3<-graph_from_edgelist(as.matrix(org[,1:2]), directed = FALSE)
+#V(g1)$name<-as.character(df_fam_nodes$label)
+
+par(mar=c(0,0,0,0))
+plot(g3,vertex.size=4, 
+     vertex.label.cex=0.01, vertex.label.color="black",
+     layout=layout.fruchterman.reingold)
+```
+
+The above figure is the Trump world organization network. This figure indicates several dense hubs in the center with many loose organizations in the periphery. Despite one hub that seems fairly independent, the other hubs seem to be connected by at least one tie. 

@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="Edge Id" attr.type="string" for="edge" id="edgeid"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<graph edgedefault="undirected">
+<node id="1">
+<data key="label">ALAN HAMMER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">652.5794</data>
+<data key="y">-116.87575</data>
+</node>
+<node id="2">
+<data key="label">ALBERT ROSS SR.</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-809.2174</data>
+<data key="y">29.04514</data>
+</node>
+<node id="3">
+<data key="label">ALEX SHNAIDER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-103.29557</data>
+<data key="y">-273.88794</data>
+</node>
+<node id="4">
+<data key="label">ANDREW BREMBERG</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">123.899864</data>
+<data key="y">-349.10803</data>
+</node>
+<node id="5">
+<data key="label">ANDRIY ZAIKA</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-62.345276</data>
+<data key="y">27.433554</data>
+</node>
+<node id="6">
+<data key="label">ANDY PUZDER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-190.21309</data>
+<data key="y">144.4024</data>
+</node>
+<node id="7">
+<data key="label">ARAS AGALAROV</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-154.52202</data>
+<data key="y">-211.79507</data>
+</node>
+<node id="8">
+<data key="label">ASHER ABEHSERA</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">284.29297</data>
+<data key="y">270.0609</data>
+</node>
+<node id="9">
+<data key="label">AYDIN DOGAN</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">2.612659</data>
+<data key="y">-399.66138</data>
+</node>
+<node id="10">
+<data key="label">BEN CARSON</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">19.710327</data>
+<data key="y">-265.53876</data>
+</node>
+<node id="11">
+<data key="label">BERNARD R. DIAMOND</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-356.05936</data>
+<data key="y">182.53561</data>
+</node>
+<node id="12">
+<data key="label">BETSY DEVOS</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-335.05307</data>
+<data key="y">-189.29988</data>
+</node>
+<node id="13">
+<data key="label">BOB DOLE</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-167.93654</data>
+<data key="y">350.70193</data>
+</node>
+<node id="14">
+<data key="label">BONNIE HAYDON</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-196.9314</data>
+<data key="y">267.71774</data>
+</node>
+<node id="15">
+<data key="label">CARTER PAGE</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-218.98785</data>
+<data key="y">-42.95876</data>
+</node>
+<node id="16">
+<data key="label">CHARLES KUSHNER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">598.8035</data>
+<data key="y">102.07045</data>
+</node>
+<node id="17">
+<data key="label">CHRIS CHRISTIE</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">849.4617</data>
+<data key="y">143.68114</data>
+</node>
+<node id="18">
+<data key="label">DAN COATS</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-185.70355</data>
+<data key="y">-2.7471614</data>
+</node>
+<node id="19">
+<data key="label">DAVID WILDSTEIN</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">847.17804</data>
+<data key="y">200.45886</data>
+</node>
+<node id="20">
+<data key="label">DON MCGAHN</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">95.26478</data>
+<data key="y">84.49566</data>
+</node>
+<node id="21">
+<data key="label">DONALD J. TRUMP</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-77.99671</data>
+<data key="y">-90.03493</data>
+</node>
+<node id="22">
+<data key="label">DONALD TRUMP JR.</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-199.3013</data>
+<data key="y">107.00412</data>
+</node>
+<node id="23">
+<data key="label">ELAINE CHAO</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-162.05661</data>
+<data key="y">46.271317</data>
+</node>
+<node id="24">
+<data key="label">ELENA GORLOVA</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-232.75624</data>
+<data key="y">0.4161737</data>
+</node>
+<node id="25">
+<data key="label">EMIN AGALAROV</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-128.04419</data>
+<data key="y">15.784137</data>
+</node>
+<node id="26">
+<data key="label">ERIC TRUMP</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-160.0761</data>
+<data key="y">-70.723724</data>
+</node>
+<node id="27">
+<data key="label">ESTHER KUSHNER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">575.5419</data>
+<data key="y">-161.25253</data>
+</node>
+<node id="28">
+<data key="label">FELIPE YARYURA</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-89.52629</data>
+<data key="y">-4.8792567</data>
+</node>
+<node id="29">
+<data key="label">GARY COHN</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-239.5544</data>
+<data key="y">-143.0195</data>
+</node>
+<node id="30">
+<data key="label">GEORGE SOROS</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-69.918365</data>
+<data key="y">363.06174</data>
+</node>
+<node id="31">
+<data key="label">GEORGE T. CONWAY III</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-473.89877</data>
+<data key="y">-89.16649</data>
+</node>
+<node id="32">
+<data key="label">H. B. HICKS</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-309.87936</data>
+<data key="y">836.4967</data>
+</node>
+<node id="33">
+<data key="label">HAROLD G. HAMM</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">68.266815</data>
+<data key="y">330.36642</data>
+</node>
+<node id="34">
+<data key="label">IVANKA TRUMP</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">93.974976</data>
+<data key="y">-4.295158</data>
+</node>
+<node id="35">
+<data key="label">JAMES MATTIS</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-4.373659</data>
+<data key="y">-41.4779</data>
+</node>
+<node id="36">
+<data key="label">JARED KUSHNER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">357.4705</data>
+<data key="y">164.8296</data>
+</node>
+<node id="37">
+<data key="label">JASON D. GREENBLATT</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-372.25293</data>
+<data key="y">133.77275</data>
+</node>
+<node id="38">
+<data key="label">JEFF SESSIONS</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-36.02242</data>
+<data key="y">-180.81868</data>
+</node>
+<node id="39">
+<data key="label">JIM MCGREEVEY</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">621.584</data>
+<data key="y">-154.67024</data>
+</node>
+<node id="40">
+<data key="label">JOHN F. KELLY</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">67.94248</data>
+<data key="y">-2.9778423</data>
+</node>
+<node id="41">
+<data key="label">JOSE E.B. ANTONIO</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-722.5193</data>
+<data key="y">-327.10367</data>
+</node>
+<node id="42">
+<data key="label">JOSE ROBERTO ROBBIE ANTONIO</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-763.83405</data>
+<data key="y">-282.85754</data>
+</node>
+<node id="43">
+<data key="label">JOSHUA KUSHNER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">307.27045</data>
+<data key="y">312.47122</data>
+</node>
+<node id="44">
+<data key="label">KALPESH MEHTA</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-165.08539</data>
+<data key="y">-152.64777</data>
+</node>
+<node id="45">
+<data key="label">KATHLEEN TROIA MCFARLAND</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-45.7426</data>
+<data key="y">83.87346</data>
+</node>
+<node id="46">
+<data key="label">KELLYANNE CONWAY</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-315.47763</data>
+<data key="y">-92.50997</data>
+</node>
+<node id="47">
+<data key="label">KEN KURSON</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">453.20712</data>
+<data key="y">73.96463</data>
+</node>
+<node id="48">
+<data key="label">LEV LEVIEV</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">325.0648</data>
+<data key="y">195.95189</data>
+</node>
+<node id="49">
+<data key="label">LINDA MCMAHON</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-252.5464</data>
+<data key="y">-60.1795</data>
+</node>
+<node id="50">
+<data key="label">LUCIUS JOSEPH RICCIO</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-273.27167</data>
+<data key="y">-431.59003</data>
+</node>
+<node id="51">
+<data key="label">MANGAL PRABHAT LODHA</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">1.4025759</data>
+<data key="y">59.255222</data>
+</node>
+<node id="52">
+<data key="label">MARGARET CHIN</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">419.80035</data>
+<data key="y">303.78162</data>
+</node>
+<node id="53">
+<data key="label">MARK BURNETT</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-702.62634</data>
+<data key="y">-582.10846</data>
+</node>
+<node id="54">
+<data key="label">MARTIN SORRELL</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">408.36465</data>
+<data key="y">150.3874</data>
+</node>
+<node id="55">
+<data key="label">MARYANNE TRUMP BARRY</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">103.207436</data>
+<data key="y">-87.53235</data>
+</node>
+<node id="56">
+<data key="label">MEHMET ALI YALCINDAG</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">7.645186</data>
+<data key="y">-203.39578</data>
+</node>
+<node id="57">
+<data key="label">MELANIA TRUMP</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-23.014185</data>
+<data key="y">-266.2391</data>
+</node>
+<node id="58">
+<data key="label">MICHAEL FLYNN</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-217.79926</data>
+<data key="y">-172.9583</data>
+</node>
+<node id="59">
+<data key="label">MICHAEL POMPEO</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-232.88176</data>
+<data key="y">-298.68317</data>
+</node>
+<node id="60">
+<data key="label">MICK MULVANEY</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-111.10915</data>
+<data key="y">63.89132</data>
+</node>
+<node id="61">
+<data key="label">MIKE FERGUSON</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">235.9215</data>
+<data key="y">-475.64197</data>
+</node>
+<node id="62">
+<data key="label">MIKE PENCE</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">55.604668</data>
+<data key="y">-77.34275</data>
+</node>
+<node id="63">
+<data key="label">MILES BERGER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">480.1837</data>
+<data key="y">207.37846</data>
+</node>
+<node id="64">
+<data key="label">MITCH MCCONNELL</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">174.20639</data>
+<data key="y">-504.7359</data>
+</node>
+<node id="65">
+<data key="label">MURRAY KUSHNER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">660.21173</data>
+<data key="y">-55.805103</data>
+</node>
+<node id="66">
+<data key="label">NIKKI HALEY</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-232.2202</data>
+<data key="y">-103.27212</data>
+</node>
+<node id="67">
+<data key="label">OLEG MISERVA</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">110.86884</data>
+<data key="y">-151.62749</data>
+</node>
+<node id="68">
+<data key="label">OMAROS� ONEE MANIGAULT</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">26.002375</data>
+<data key="y">797.6991</data>
+</node>
+<node id="69">
+<data key="label">PAULO FIGUEIREDO FILHO</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">248.88971</data>
+<data key="y">-53.706635</data>
+</node>
+<node id="70">
+<data key="label">PETER HOLT</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-336.99942</data>
+<data key="y">289.39322</data>
+</node>
+<node id="71">
+<data key="label">PRINCE ALWALEED BIN TALALTHE</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">42.68832</data>
+<data key="y">27.44666</data>
+</node>
+<node id="72">
+<data key="label">RECEP TAYYIP ERDOGAN</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">76.66617</data>
+<data key="y">-175.4102</data>
+</node>
+<node id="73">
+<data key="label">REINCE PRIEBUS</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-190.86403</data>
+<data key="y">-314.39853</data>
+</node>
+<node id="74">
+<data key="label">REX TILLERSON</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">357.62253</data>
+<data key="y">410.15326</data>
+</node>
+<node id="75">
+<data key="label">RHONA GRAFF RICCIO</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-171.45988</data>
+<data key="y">-302.86063</data>
+</node>
+<node id="76">
+<data key="label">RICHARD DEVOS</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-492.54733</data>
+<data key="y">-196.59097</data>
+</node>
+<node id="77">
+<data key="label">RICHARD LEFRAK</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">51.66348</data>
+<data key="y">-225.47028</data>
+</node>
+<node id="78">
+<data key="label">RICHARD MARVIN DICK DEVOS JR.</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-453.0712</data>
+<data key="y">-288.8313</data>
+</node>
+<node id="79">
+<data key="label">RICK PERRY</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-241.79866</data>
+<data key="y">121.81358</data>
+</node>
+<node id="80">
+<data key="label">ROB SPEYER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">453.25403</data>
+<data key="y">268.62103</data>
+</node>
+<node id="81">
+<data key="label">ROBERT LIGHTHIZER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-139.6428</data>
+<data key="y">166.46442</data>
+</node>
+<node id="82">
+<data key="label">ROGER KHAFIF</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">9.370461</data>
+<data key="y">1.7964962</data>
+</node>
+<node id="83">
+<data key="label">ROMA DOWNEY</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-660.93604</data>
+<data key="y">-627.5684</data>
+</node>
+<node id="84">
+<data key="label">RUDY GIULIANI</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">338.54694</data>
+<data key="y">13.752646</data>
+</node>
+<node id="85">
+<data key="label">RUSSELL FLICKER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-124.88779</data>
+<data key="y">186.29956</data>
+</node>
+<node id="86">
+<data key="label">RYAN ZINKE</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">22.495354</data>
+<data key="y">-215.9835</data>
+</node>
+<node id="87">
+<data key="label">SALLY PRIEBUS</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-242.05383</data>
+<data key="y">-474.12842</data>
+</node>
+<node id="88">
+<data key="label">SCOTT PRUITT</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">15.037682</data>
+<data key="y">154.63603</data>
+</node>
+<node id="89">
+<data key="label">SCOTT WALKER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">253.83572</data>
+<data key="y">-432.59552</data>
+</node>
+<node id="90">
+<data key="label">SEAN SPICER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-119.77598</data>
+<data key="y">-222.1137</data>
+</node>
+<node id="91">
+<data key="label">SERGEY I. KISLYAK</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">84.8324</data>
+<data key="y">-213.55807</data>
+</node>
+<node id="92">
+<data key="label">SHANNON MCGAHN</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">198.87172</data>
+<data key="y">208.9045</data>
+</node>
+<node id="93">
+<data key="label">STEPHEN BANNON</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-80.5323</data>
+<data key="y">-230.6462</data>
+</node>
+<node id="94">
+<data key="label">STEPHEN MILLER</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">25.929691</data>
+<data key="y">-141.7417</data>
+</node>
+<node id="95">
+<data key="label">STEVEN MNUCHIN</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-65.49818</data>
+<data key="y">175.22528</data>
+</node>
+<node id="96">
+<data key="label">STRAUSS ZELNICK</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">352.9107</data>
+<data key="y">325.3078</data>
+</node>
+<node id="97">
+<data key="label">SUSAN POMPEO</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-327.2757</data>
+<data key="y">-453.63898</data>
+</node>
+<node id="98">
+<data key="label">TOM BOSSERT</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">76.86821</data>
+<data key="y">-122.12956</data>
+</node>
+<node id="99">
+<data key="label">TOM PRICE</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-57.86184</data>
+<data key="y">-277.1649</data>
+</node>
+<node id="100">
+<data key="label">VANESSA TRUMP</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-318.01852</data>
+<data key="y">225.31732</data>
+</node>
+<node id="101">
+<data key="label">VICTOR PINCHUK</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-196.22415</data>
+<data key="y">-206.7142</data>
+</node>
+<node id="102">
+<data key="label">VIKTOR TKACHUK</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-51.055664</data>
+<data key="y">65.10282</data>
+</node>
+<node id="103">
+<data key="label">VLADIMIR PUTIN</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">351.70935</data>
+<data key="y">294.43265</data>
+</node>
+<node id="104">
+<data key="label">WILBUR ROSS</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">163.97466</data>
+<data key="y">-39.27281</data>
+</node>
+<node id="105">
+<data key="label">WILLIAM P. FOLEY</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-262.9246</data>
+<data key="y">316.66278</data>
+</node>
+<node id="106">
+<data key="label">WU XIAOHUI</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-618.6489</data>
+<data key="y">424.03012</data>
+</node>
+<node id="107">
+<data key="label">ZHUO RAN</data>
+<data key="size">10.0</data>
+<data key="r">0</data>
+<data key="g">0</data>
+<data key="b">0</data>
+<data key="x">-638.2139</data>
+<data key="y">365.77554</data>
+</node>
+<edge source="4" target="61">
+<data key="edgeid">0</data>
+<data key="edgelabel">"Bremberg "is a lifelong friend" of Ferguson, a former U.S. House representative, per Stat"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="4" target="64">
+<data key="edgeid">1</data>
+<data key="edgelabel">"Policy advisor and counsel on nominations"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="4" target="89">
+<data key="edgeid">2</data>
+<data key="edgelabel">"Policy director for Walker's campaign"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="6" target="105">
+<data key="edgeid">3</data>
+<data key="edgelabel">"Worked together on deal to turn around debts of Carl's Jr. founder, which was a major success in Puzder's career"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="15" target="21">
+<data key="edgeid">4</data>
+<data key="edgelabel">"Foreign policy adviser"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="16" target="1">
+<data key="edgeid">5</data>
+<data key="edgelabel">"has long worked with Kushner, per New York Magazine"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="16" target="27">
+<data key="edgeid">6</data>
+<data key="edgelabel">"Siblings"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="16" target="39">
+<data key="edgeid">7</data>
+<data key="edgelabel">"the financial force behind the former governor's campaign, per New York Magazine"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="16" target="65">
+<data key="edgeid">8</data>
+<data key="edgelabel">"Siblings"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="17" target="19">
+<data key="edgeid">9</data>
+<data key="edgelabel">"Christie and Wildstein went to high school together, and Christie appointed Wildstein to a director position at the Port Authority"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="3">
+<data key="edgeid">10</data>
+<data key="edgelabel">"Trump?s primary partner for his lucrative business in Canada, per Newsweek"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="4">
+<data key="edgeid">11</data>
+<data key="edgelabel">"Domestic policy advisor"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="6">
+<data key="edgeid">12</data>
+<data key="edgelabel">"Nominee for Secretary of Labor"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="7">
+<data key="edgeid">13</data>
+<data key="edgelabel">"The billionaire real estate developer says he befriended Trump, and also has served as a liaison between Trump and Putin"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="10">
+<data key="edgeid">14</data>
+<data key="edgelabel">"Nominee for Secretary of HUD"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="12">
+<data key="edgeid">15</data>
+<data key="edgelabel">"Nominee for Secretary of Education"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="18">
+<data key="edgeid">16</data>
+<data key="edgelabel">"Nominee for Director of National Intelligence"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="20">
+<data key="edgeid">17</data>
+<data key="edgelabel">"White House Counsel"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="22">
+<data key="edgeid">18</data>
+<data key="edgelabel">"Parent/child"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="23">
+<data key="edgeid">19</data>
+<data key="edgelabel">"Nominee for Secretary of Transportation"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="24">
+<data key="edgeid">20</data>
+<data key="edgelabel">"Gorlova bought a Trump penthouse in Florida"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="25">
+<data key="edgeid">21</data>
+<data key="edgelabel">"The Russian pop singer, son of billionaire real estate developer Aras Agalarov, says he befriended Trump"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="26">
+<data key="edgeid">22</data>
+<data key="edgelabel">"Parent/child"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="28">
+<data key="edgeid">23</data>
+<data key="edgelabel">"The Argentine real estate developer is said to be friends with the Trump family"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="29">
+<data key="edgeid">24</data>
+<data key="edgelabel">"Director United States National Economic Council"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="34">
+<data key="edgeid">25</data>
+<data key="edgelabel">"Parent/child"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="35">
+<data key="edgeid">26</data>
+<data key="edgelabel">"Nominee for Secretary of Defense"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="38">
+<data key="edgeid">27</data>
+<data key="edgelabel">"Nominee for Attorney General"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="40">
+<data key="edgeid">28</data>
+<data key="edgelabel">"Nominee for Secretary of Department of Homeland Security"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="44">
+<data key="edgeid">29</data>
+<data key="edgelabel">"exclusive representative of Trump's businesses in India, per Newsweek"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="45">
+<data key="edgeid">30</data>
+<data key="edgelabel">"Deputy National Security Advisor"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="46">
+<data key="edgeid">31</data>
+<data key="edgelabel">"White House Counselor"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="49">
+<data key="edgeid">32</data>
+<data key="edgelabel">"Nominee for Administrator of the Small Business Administration"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="51">
+<data key="edgeid">33</data>
+<data key="edgelabel">"Business partners"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="55">
+<data key="edgeid">34</data>
+<data key="edgelabel">"Siblings"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="56">
+<data key="edgeid">35</data>
+<data key="edgelabel">"Business partners"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="57">
+<data key="edgeid">36</data>
+<data key="edgelabel">"Married"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="58">
+<data key="edgeid">37</data>
+<data key="edgelabel">"National Security Advisor"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="59">
+<data key="edgeid">38</data>
+<data key="edgelabel">"Nominee for Director of CIA"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="60">
+<data key="edgeid">39</data>
+<data key="edgelabel">"Nominee for Director of Office of Management and Budget"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="66">
+<data key="edgeid">40</data>
+<data key="edgelabel">"Nominee for Ambassador to the United Nations"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="67">
+<data key="edgeid">41</data>
+<data key="edgelabel">"Miserva bought a Trump penthouse in Florida"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="71">
+<data key="edgeid">42</data>
+<data key="edgelabel">"the billionaire [...] aided Trump during his corporate bankruptcies in the 1990s by purchasing his yacht, which provided him with desperately needed cash, per Newsweek"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="72">
+<data key="edgeid">43</data>
+<data key="edgelabel">"Erdogan, the president of Turkey and a vocal Trump supporter, met him during the ribbon-cutting of a Trump property"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="73">
+<data key="edgeid">44</data>
+<data key="edgelabel">"White House Chief of Staff"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="77">
+<data key="edgeid">45</data>
+<data key="edgelabel">"one of Trump's few close friends in New York real estate, per New York Magazine"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="79">
+<data key="edgeid">46</data>
+<data key="edgelabel">"Nominee for Secretary of Energy"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="81">
+<data key="edgeid">47</data>
+<data key="edgelabel">"Nominee for U.S. Trade Representative"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="82">
+<data key="edgeid">48</data>
+<data key="edgelabel">"Told Russian buyers he was a partner in Trump project in Sunny Isles, Fla."</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="86">
+<data key="edgeid">49</data>
+<data key="edgelabel">"Nominee for Secretary of Interior"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="88">
+<data key="edgeid">50</data>
+<data key="edgelabel">"Nominee for Administrator of the Environmental Protection Administration"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="90">
+<data key="edgeid">51</data>
+<data key="edgelabel">"White House Press Secretary"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="91">
+<data key="edgeid">52</data>
+<data key="edgelabel">"The Russian diplomat sat in on Trump foreign policy speech in April 2016"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="93">
+<data key="edgeid">53</data>
+<data key="edgelabel">"White House Chief Strategist and Senior Advisor"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="94">
+<data key="edgeid">54</data>
+<data key="edgelabel">"Senior Advisor to the President for Policy"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="95">
+<data key="edgeid">55</data>
+<data key="edgelabel">"Nominee for Secretary of Treasury"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="98">
+<data key="edgeid">56</data>
+<data key="edgelabel">"Homeland Security Advisor"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="99">
+<data key="edgeid">57</data>
+<data key="edgelabel">"Nominee for Secretary of Health and Human Services"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="101">
+<data key="edgeid">58</data>
+<data key="edgelabel">"Trump made video appearance for Pinchuk's convention"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="21" target="104">
+<data key="edgeid">59</data>
+<data key="edgelabel">"Nominee for Secretary of Commerce"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="22" target="5">
+<data key="edgeid">60</data>
+<data key="edgelabel">"Met in 2006, when Zaika was head of the Ukrainian Construction Consortium"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="22" target="11">
+<data key="edgeid">61</data>
+<data key="edgelabel">"Business partners"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="22" target="14">
+<data key="edgeid">62</data>
+<data key="edgelabel">"Father-in-law/son-in-law"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="22" target="28">
+<data key="edgeid">63</data>
+<data key="edgelabel">"The Argentine real estate developer is said to be friends with the Trump family"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="22" target="37">
+<data key="edgeid">64</data>
+<data key="edgelabel">"Business partners"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="22" target="85">
+<data key="edgeid">65</data>
+<data key="edgelabel">"Business partners"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="22" target="100">
+<data key="edgeid">66</data>
+<data key="edgelabel">"Married"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="22" target="102">
+<data key="edgeid">67</data>
+<data key="edgelabel">"Met in 2006, when Tkachuk was an adviser to the Ukrainian president"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="26" target="28">
+<data key="edgeid">68</data>
+<data key="edgelabel">"The Argentine real estate developer is said to be friends with the Trump family; Yaryura and Eric Trump were photographed together at Trump's election night party"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="30" target="95">
+<data key="edgeid">69</data>
+<data key="edgelabel">"Mnuchin worked for Soros' fund"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="31" target="46">
+<data key="edgeid">70</data>
+<data key="edgelabel">"Married"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="34" target="5">
+<data key="edgeid">71</data>
+<data key="edgelabel">"Met in 2006, when Zaika was head of the Ukrainian Construction Consortium"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="34" target="28">
+<data key="edgeid">72</data>
+<data key="edgelabel">"The Argentine real estate developer is said to be friends with the Trump family"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="34" target="36">
+<data key="edgeid">73</data>
+<data key="edgelabel">"Married"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="34" target="56">
+<data key="edgeid">74</data>
+<data key="edgelabel">"Business partners"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="34" target="69">
+<data key="edgeid">75</data>
+<data key="edgelabel">"Lunched together, spawning Trump interest in Rio hotel"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="34" target="102">
+<data key="edgeid">76</data>
+<data key="edgelabel">"Met in 2006, when Tkachuk was an adviser to the Ukrainian president"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="36" target="8">
+<data key="edgeid">77</data>
+<data key="edgelabel">"Partnered with Kushner in Brooklyn projects"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="36" target="16">
+<data key="edgeid">78</data>
+<data key="edgelabel">"Parent/child"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="36" target="52">
+<data key="edgeid">79</data>
+<data key="edgelabel">"Donor"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="36" target="54">
+<data key="edgeid">80</data>
+<data key="edgelabel">"Friends"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="36" target="63">
+<data key="edgeid">81</data>
+<data key="edgelabel">"business partner of the Kushners, per New York Magazine"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="36" target="80">
+<data key="edgeid">82</data>
+<data key="edgelabel">"Gave Kushner $50 million to help by a property from his father's company-Tishman Speyer"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="36" target="96">
+<data key="edgeid">83</data>
+<data key="edgelabel">"close with Kushner, per New York Magazine"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="41" target="42">
+<data key="edgeid">84</data>
+<data key="edgelabel">"Parent/child"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="43" target="36">
+<data key="edgeid">85</data>
+<data key="edgelabel">"Brothers"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="48" target="103">
+<data key="edgeid">86</data>
+<data key="edgelabel">"Described him as a "true friend""</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="50" target="75">
+<data key="edgeid">87</data>
+<data key="edgelabel">"Married"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="53" target="83">
+<data key="edgeid">88</data>
+<data key="edgelabel">"Married"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="56" target="9">
+<data key="edgeid">89</data>
+<data key="edgelabel">"Father-in-law/son-in-law"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="62" target="21">
+<data key="edgeid">90</data>
+<data key="edgelabel">"Vice President"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="74" target="103">
+<data key="edgeid">91</data>
+<data key="edgelabel">"Awarded Order of Friendship"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="75" target="21">
+<data key="edgeid">92</data>
+<data key="edgelabel">"Assistant"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="76" target="12">
+<data key="edgeid">93</data>
+<data key="edgelabel">"Parent/child"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="78" target="12">
+<data key="edgeid">94</data>
+<data key="edgelabel">"Married"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="79" target="70">
+<data key="edgeid">95</data>
+<data key="edgelabel">"Perry consulted for Holt, after governorship to which Holt gave money"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="81" target="13">
+<data key="edgeid">96</data>
+<data key="edgelabel">"Lighthizer was Dole's campaign treasurer in 1996"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="84" target="47">
+<data key="edgeid">97</data>
+<data key="edgelabel">"Worked on 2008 presidential campaign"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="87" target="73">
+<data key="edgeid">98</data>
+<data key="edgelabel">"Married"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="88" target="33">
+<data key="edgeid">99</data>
+<data key="edgelabel">"Hamm, chief executive of Continental Energy, was Pruitt's 2013 re-election co-chair"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="92" target="20">
+<data key="edgeid">100</data>
+<data key="edgelabel">"Married"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="97" target="59">
+<data key="edgeid">101</data>
+<data key="edgelabel">"Married"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="104" target="84">
+<data key="edgeid">102</data>
+<data key="edgelabel">"Privatization advisor when Giuliani was mayor"</data>
+<data key="weight">1.0</data>
+</edge>
+<edge source="106" target="107">
+<data key="edgeid">103</data>
+<data key="edgelabel">"Married. (Zhuo is the granddaughter of Deng Xiaoping, the former leader of the People's Republic of China. Wu is the chairman of the Anbang Insurance Group, which has been in business discussions with the Kushners.)"</data>
+<data key="weight">1.0</data>
+</edge>
+</graph>
+</graphml>
